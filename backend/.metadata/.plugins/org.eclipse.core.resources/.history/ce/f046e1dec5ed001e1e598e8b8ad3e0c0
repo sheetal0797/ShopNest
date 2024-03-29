@@ -1,0 +1,24 @@
+package com.shopnest.service;
+
+
+import org.springframework.stereotype.Service;
+
+import com.shopnest.exception.UserException;
+import com.shopnest.model.User;
+
+@Service
+public class UserServiceImplementation implements UserService{
+
+	@Override
+	public User findUserById(Long userId) throws UserException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User findUserProfileByjwt(String jwt) throws UserException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

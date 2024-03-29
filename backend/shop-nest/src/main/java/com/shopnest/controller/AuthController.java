@@ -52,7 +52,7 @@ public class AuthController {
 		
 		if(isEmailExist!=null)
 		{
-			throw new UserException("Email is already used with Another User");
+			throw new UserException("Email is already used with another Account");
 		}
 		
 		User createdUser =new User();

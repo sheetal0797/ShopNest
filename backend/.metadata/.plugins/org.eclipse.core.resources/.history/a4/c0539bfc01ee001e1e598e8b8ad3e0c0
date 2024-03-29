@@ -1,0 +1,57 @@
+package com.shopnest.service;
+
+import org.springframework.stereotype.Service;
+
+import com.shopnest.exception.CartItemException;
+import com.shopnest.exception.UserException;
+import com.shopnest.model.Cart;
+import com.shopnest.model.CartItem;
+import com.shopnest.model.Product;
+import com.shopnest.repository.CartItemRepository;
+import com.shopnest.repository.CartRepository;
+
+@Service
+public class CartItemServiceImplementation implements CartItemService {
+
+	private CartItemRepository cartItemRepository;
+	private UserService userService;
+	private CartRepository cartRepository;
+	
+	public CartItemServiceImplementation(CartItemRepository cartItemRepository, UserService userService,
+			CartRepository cartRepository) {
+		this.cartItemRepository = cartItemRepository;
+		this.userService = userService;
+		this.cartRepository = cartRepository;
+	}
+
+	@Override
+	public CartItem createCartItem(CartItem cartItem) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CartItem updateCartItem(Long userId, Long id, CartItem cartItem) throws CartItemException, UserException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CartItem isCartItemExist(Cart cart, Product product, String size, Long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void removeCartItem(Long userId, Long cartItemId) throws CartItemException, UserException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public CartItem findCartItemById(Long cartItemId) throws CartItemException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
