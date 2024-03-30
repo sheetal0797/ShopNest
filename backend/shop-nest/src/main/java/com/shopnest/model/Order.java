@@ -16,6 +16,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.shopnest.user.domain.OrderStatus;
+
 @Entity
 @Table(name = "orders")
 public class Order {
@@ -49,7 +51,7 @@ public class Order {
     
     private Integer discounte;
 
-    private String orderStatus;
+    private  OrderStatus orderStatus;
     
     private int totalItem;
     
@@ -59,10 +61,9 @@ public class Order {
 		// TODO Auto-generated constructor stub
 	}
 
-    
 	public Order(Long id, String orderId, User user, List<OrderItem> orderItems, LocalDateTime orderDate,
 			LocalDateTime deliveryDate, Address shippingAddress, PaymentDetails paymentDetails, double totalPrice,
-			Integer totalDiscountedPrice, Integer discounte, String orderStatus, int totalItem,
+			Integer totalDiscountedPrice, Integer discounte, OrderStatus orderStatus, int totalItem,
 			LocalDateTime createdAt) {
 		super();
 		this.id = id;
@@ -80,7 +81,6 @@ public class Order {
 		this.totalItem = totalItem;
 		this.createdAt = createdAt;
 	}
-
 
 	public Long getId() {
 		return id;
@@ -170,11 +170,11 @@ public class Order {
 		this.discounte = discounte;
 	}
 
-	public String getOrderStatus() {
+	public OrderStatus getOrderStatus() {
 		return orderStatus;
 	}
 
-	public void setOrderStatus(String orderStatus) {
+	public void setOrderStatus(OrderStatus orderStatus) {
 		this.orderStatus = orderStatus;
 	}
 
@@ -193,6 +193,4 @@ public class Order {
 	public void setCreatedAt(LocalDateTime createdAt) {
 		this.createdAt = createdAt;
 	}
-
-    
 }

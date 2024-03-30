@@ -1,9 +1,11 @@
 package com.shopnest.model;
 
+import com.shopnest.user.domain.PaymentStatus;
+
 public class PaymentDetails {
 
 	private String paymentMethod;
-	private String status;
+	private PaymentStatus status;
 	private String paymentId;
 	private String razorpayPaymentLinkId;
 	private String razorpayPaymentLinkReferenceId;
@@ -22,11 +24,11 @@ public class PaymentDetails {
 		this.paymentMethod = paymentMethod;
 	}
 
-	public String getStatus() {
+	public PaymentStatus getStatus() {
 		return status;
 	}
 
-	public void setStatus(String status) {
+	public void setStatus(PaymentStatus status) {
 		this.status = status;
 	}
 
@@ -69,5 +71,6 @@ public class PaymentDetails {
 	public void setRazorpayPaymentId​(String razorpayPaymentId​) {
 		this.razorpayPaymentId​ = razorpayPaymentId​;
 	}
+	
 	
 }
