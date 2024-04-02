@@ -1,7 +1,8 @@
 package com.shopnest.controller;
 
-import java.util.List;
+import java.util.*;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,18 +15,19 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.shopnest.exception.ProductException;
 import com.shopnest.exception.UserException;
-import com.shopnest.model.Review;
-import com.shopnest.model.User;
+import com.shopnest.modal.Review;
+import com.shopnest.modal.User;
 import com.shopnest.request.ReviewRequest;
 import com.shopnest.service.ReviewService;
 import com.shopnest.service.UserService;
-
 
 @RestController
 @RequestMapping("/api/reviews")
 public class ReviewController {
 	
+	@Autowired
 	private ReviewService reviewService;
+	@Autowired
 	private UserService userService;
 	
 	public ReviewController(ReviewService reviewService,UserService userService) {

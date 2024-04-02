@@ -1429,536 +1429,78 @@
 2024-03-29 00:37:24,626 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-03-29 00:37:24,633 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-03-29 00:37:24,635 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\shop-nest\src\test\resources
-2024-03-29 01:03:59,586 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2024-03-29 01:07:08,209 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2024-03-29 01:07:48,678 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 01:07:48,695 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 01:07:48,699 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 01:10:31,884 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 01:10:31,896 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 01:10:31,901 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 15:56:25,185 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 15:56:25,206 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 15:56:25,214 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 15:58:33,473 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 15:58:33,485 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 15:58:33,494 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:15:24,407 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:15:24,416 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:15:24,421 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:17:40,125 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:17:40,137 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:17:40,142 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:19:47,296 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:19:47,302 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:19:47,305 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:19:52,846 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:19:52,872 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:19:52,877 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:25:00,094 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:25:00,110 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:25:00,110 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:27:06,842 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:27:06,864 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:27:06,870 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:29:14,783 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:29:14,796 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:29:14,800 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:31:49,424 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:31:49,430 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:31:49,434 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:32:52,614 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:32:52,629 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:32:52,634 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:34:15,832 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:34:15,842 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:34:15,846 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:34:18,476 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:34:18,489 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:34:18,494 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:34:24,025 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:34:24,037 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:34:24,041 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:38:30,572 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:38:30,581 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:38:30,586 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:41:50,147 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:41:50,158 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:41:50,161 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:41:53,290 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:41:53,303 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:41:53,306 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:50:52,022 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:50:52,029 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:50:52,035 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:50:55,759 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:50:55,780 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:50:55,789 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:57:12,633 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:57:12,641 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:57:12,644 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 16:57:25,063 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 16:57:25,070 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 16:57:25,073 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 17:19:18,657 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 17:19:18,664 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 17:19:18,668 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 17:22:01,402 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 17:22:01,411 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 17:22:01,415 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 17:22:08,345 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 17:22:08,355 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 17:22:08,359 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 17:44:20,475 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 17:44:20,479 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 17:44:20,482 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:29:05,210 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:29:05,218 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:29:05,223 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:30:56,931 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:30:56,938 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:30:56,942 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:33:56,286 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:33:56,292 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:33:56,295 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:35:16,619 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:35:16,628 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:35:16,631 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:36:17,005 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:36:17,012 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:36:17,017 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:40:58,689 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:40:58,700 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:40:58,706 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:42:18,342 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:42:18,350 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:42:18,353 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:43:12,249 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:43:12,255 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:43:12,263 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:43:36,332 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:43:36,342 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:43:36,346 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:44:44,758 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:44:44,763 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:44:44,766 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:44:53,871 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:44:53,876 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:44:53,879 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:55:59,861 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:55:59,871 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:55:59,875 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:56:33,076 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:56:33,083 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:56:33,087 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:57:36,524 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:57:36,538 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:57:36,543 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:58:26,651 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:58:26,657 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:58:26,659 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:58:31,279 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:58:31,288 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:58:31,292 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-29 23:59:17,177 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-29 23:59:17,187 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-29 23:59:17,192 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:04:17,808 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:04:17,817 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:04:17,821 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:06:27,321 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:06:27,327 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:06:27,330 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:07:15,950 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:07:15,959 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:07:15,962 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:27:03,559 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:27:03,577 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:27:03,581 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:27:08,485 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:27:08,504 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:27:08,508 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:28:26,006 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:28:26,024 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:28:26,027 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:30:42,044 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:30:42,051 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:30:42,055 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:32:28,929 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:32:28,936 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:32:28,940 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:33:14,371 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:33:14,377 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:33:14,380 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:33:27,975 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:33:27,982 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:33:27,985 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:33:47,555 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:33:47,630 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:33:47,635 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:39:58,304 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:39:58,313 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:39:58,317 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:41:10,741 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:41:10,748 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:41:10,751 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:41:16,059 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:41:16,068 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:41:16,071 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:41:35,993 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:41:35,999 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:41:36,002 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:42:06,341 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:42:06,351 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:42:06,355 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:42:35,763 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:42:35,798 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:42:35,802 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:43:51,046 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:43:51,053 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:43:51,057 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:45:02,578 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:45:02,583 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:45:02,586 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:46:02,765 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:46:02,771 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:46:02,775 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:54:39,703 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:54:39,710 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:54:39,714 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 00:55:05,632 [Worker-93: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 00:55:05,638 [Worker-93: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 00:55:05,641 [Worker-93: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:05:19,422 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:05:19,432 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:05:19,436 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:05:24,060 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:05:24,067 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:05:24,070 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:07:11,443 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:07:11,449 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:07:11,452 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:07:49,387 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:07:49,393 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:07:49,396 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:11:11,747 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:11:11,754 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:11:11,757 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:11:55,310 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:11:55,317 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:11:55,321 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:13:40,340 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:13:40,348 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:13:40,352 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:28:06,018 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:28:06,026 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:28:06,028 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:29:10,474 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:29:10,482 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:29:10,485 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:31:15,123 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:31:15,130 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:31:15,135 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:35:56,579 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:35:56,586 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:35:56,590 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:38:52,363 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:38:52,371 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:38:52,375 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:39:01,482 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:39:01,491 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:39:01,494 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:39:10,108 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:39:10,116 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:39:10,119 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:39:18,687 [Worker-119: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:39:18,698 [Worker-119: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:39:18,704 [Worker-119: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:45:53,055 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:45:53,064 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:45:53,068 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:46:21,446 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:46:21,454 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:46:21,457 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:47:05,931 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:47:05,939 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:47:05,943 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:47:31,871 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:47:31,879 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:47:31,883 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:48:28,747 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:48:28,761 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:48:28,766 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:49:56,224 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:49:56,231 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:49:56,235 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:56:50,856 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:56:50,860 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:56:50,862 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:58:36,449 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:58:36,455 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:58:36,456 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:58:53,587 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:58:53,592 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:58:53,595 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 01:59:07,232 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 01:59:07,238 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 01:59:07,241 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:00:33,334 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:00:33,338 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:00:33,339 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:00:38,028 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:00:38,060 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:00:38,064 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:02:02,816 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:02:02,819 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:02:02,821 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:02:07,774 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:02:07,778 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:02:07,779 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:08:49,129 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:08:49,178 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:08:49,189 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:10:15,162 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:10:15,168 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:10:15,170 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:12:00,007 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:12:00,013 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:12:00,016 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:34:06,001 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:34:06,007 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:34:06,010 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:34:50,620 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:34:50,623 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:34:50,625 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:35:08,464 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:35:08,467 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:35:08,469 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:35:33,909 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:35:33,914 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:35:33,916 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:37:37,617 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:37:37,624 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:37:37,626 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:43:23,149 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:43:23,154 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:43:23,177 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:45:47,009 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:45:47,013 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:45:47,015 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:53:48,842 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:53:48,848 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:53:48,850 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:55:48,044 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:55:48,050 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:55:48,052 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:56:32,431 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:56:32,435 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:56:32,437 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 02:57:03,439 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 02:57:03,450 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 02:57:03,452 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:04:58,401 [Worker-134: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:04:58,421 [Worker-134: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:04:58,424 [Worker-134: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:25:26,972 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:25:26,978 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:25:26,980 [Worker-156: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:38:23,073 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:38:23,079 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:38:23,080 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:40:59,396 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:40:59,402 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:40:59,429 [Worker-159: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:43:24,436 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:43:24,443 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:43:24,445 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:43:30,156 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:43:30,168 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:43:30,170 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:43:59,643 [Worker-152: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:43:59,651 [Worker-152: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:43:59,655 [Worker-152: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:54:11,665 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:54:11,672 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:54:11,673 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:55:38,108 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:55:38,113 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:55:38,114 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:57:14,733 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:57:14,738 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:57:14,740 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 03:58:52,495 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 03:58:52,498 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 03:58:52,499 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 04:01:36,726 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 04:01:36,730 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 04:01:36,732 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 04:03:11,393 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 04:03:11,396 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 04:03:11,397 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 04:03:44,510 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 04:03:44,513 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 04:03:44,515 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 04:04:52,432 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 04:04:52,436 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 04:04:52,438 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 04:06:45,844 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 04:06:45,850 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 04:06:45,852 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 04:07:20,589 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 04:07:20,594 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 04:07:20,595 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:45:30,880 [Worker-184: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:45:30,893 [Worker-184: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:45:30,895 [Worker-184: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:47:34,238 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:47:34,246 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:47:34,250 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:49:33,697 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:49:33,697 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:49:33,697 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:49:36,795 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:49:36,805 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:49:36,806 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:49:49,345 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:49:49,352 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:49:49,355 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:50:13,718 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:50:13,721 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:50:13,722 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:50:43,691 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:50:43,707 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:50:43,707 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:51:34,179 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:51:34,187 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:51:34,189 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:52:22,604 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:52:22,610 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:52:22,612 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:52:42,425 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:52:42,429 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:52:42,430 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:55:01,965 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:55:01,971 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:55:01,972 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:55:52,798 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:55:52,802 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:55:52,803 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:56:17,290 [Worker-187: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:56:17,296 [Worker-187: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:56:17,298 [Worker-187: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 11:56:53,392 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 11:56:53,397 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 11:56:53,399 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:05:17,325 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:05:17,330 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:05:17,333 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:07:31,879 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:07:31,893 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:07:31,894 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:08:42,327 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:08:42,331 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:08:42,332 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:08:54,563 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:08:54,569 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:08:54,570 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:12:36,989 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:12:36,992 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:12:36,993 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:13:13,615 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:13:13,622 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:13:13,624 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:13:21,662 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:13:21,666 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:13:21,668 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:17:33,290 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:17:33,294 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:17:33,295 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:17:39,526 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:17:39,529 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:17:39,530 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:18:25,730 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:18:25,734 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:18:25,736 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:18:34,285 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:18:34,291 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:18:34,293 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:18:53,358 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:18:53,363 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:18:53,365 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:19:01,897 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:19:01,901 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:19:01,903 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:19:14,166 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:19:14,170 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:19:14,172 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:19:21,779 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:19:21,783 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:19:21,785 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:19:34,628 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:19:34,632 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:19:34,634 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:19:42,053 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:19:42,058 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:19:42,060 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:20:00,468 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:20:00,472 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:20:00,474 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:20:07,260 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:20:07,264 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:20:07,265 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:20:20,751 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:20:20,755 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:20:20,756 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 12:20:26,906 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 12:20:26,909 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 12:20:26,911 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 13:37:32,496 [Worker-220: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 13:37:32,514 [Worker-220: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 13:37:32,516 [Worker-220: Launching shop-nest - ShopNestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 15:42:17,774 [Worker-225: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 15:42:17,787 [Worker-225: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 15:42:17,789 [Worker-225: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 15:43:39,854 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 15:43:39,866 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 15:43:39,869 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 15:43:55,702 [Worker-231: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 15:43:55,706 [Worker-231: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 15:43:55,709 [Worker-231: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 15:44:24,700 [Worker-229: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 15:44:24,706 [Worker-229: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 15:44:24,708 [Worker-229: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:20:25,992 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:20:26,003 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:20:26,004 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:21:56,324 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:21:56,327 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:21:56,328 [Worker-237: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:32:53,076 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:32:53,081 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:32:53,084 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:34:25,164 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:34:25,168 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:34:25,169 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:40:24,983 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:40:24,989 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:40:24,992 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:40:28,985 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:40:28,990 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:40:28,991 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:42:49,723 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:42:49,729 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:42:49,732 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:43:48,602 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:43:48,606 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:43:48,608 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:46:41,734 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:46:41,739 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:46:41,755 [Worker-240: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:46:46,615 [Worker-245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:46:46,618 [Worker-245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:46:46,619 [Worker-245: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
-2024-03-30 16:50:00,242 [Worker-248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
-2024-03-30 16:50:00,263 [Worker-248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
-2024-03-30 16:50:00,265 [Worker-248: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\ShopeNest\backend\shop-nest\src\test\resources
+2024-04-02 18:36:49,111 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-02 18:48:08,043 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-02 18:48:30,089 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-02 18:50:12,222 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-02 18:52:39,002 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-02 18:52:41,894 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-02 18:52:41,921 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-02 18:52:41,926 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy\shop-nest\src\test\resources
+2024-04-02 18:52:43,283 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-02 18:52:43,286 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-02 18:52:43,292 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy\shop-nest\src\test\resources
+2024-04-02 18:53:02,298 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-02 19:04:53,612 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-04-02 19:05:09,442 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234 [354])
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\aopalliance-1.0.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\guice-5.1.0.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpclient-4.5.14.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpcore-4.4.16.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jansi-2.4.0.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jcl-over-slf4j-1.7.36.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-artifact-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-builder-support-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-compat-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-core-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-embedder-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-builder-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-plugin-api-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-repository-metadata-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-api-1.9.18.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-connector-basic-1.9.18.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-impl-1.9.18.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-named-locks-1.9.18.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-provider-3.9.6.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-spi-1.9.18.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-file-1.9.18.jar
+2024-04-02 19:05:09,444 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-http-1.9.18.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-wagon-1.9.18.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-util-1.9.18.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-3.9.6.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-builder-3.9.6.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-shared-utils-3.3.4.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-build-api-0.0.7.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-cipher-2.0.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-classworlds-2.7.0.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-component-annotations-2.1.0.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-interpolation-1.26.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-sec-dispatcher-2.0.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-utils-3.5.1.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-file-3.5.3.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-3.5.3.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-shared-3.5.3.jar
+2024-04-02 19:05:09,445 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-provider-api-3.5.3.jar
+2024-04-02 19:05:09,446 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [27])
+2024-04-02 19:05:09,446 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\com.google.guava_33.0.0.jre.jar
+2024-04-02 19:05:09,446 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [583])
+2024-04-02 19:05:09,446 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\slf4j.api_2.0.12.jar
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [44])
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [40])
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [75])
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.apache.commons.cli_1.6.0.jar
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [77])
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [81])
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [29])
+2024-04-02 19:05:09,447 [Worker-17: Launching shop-nest] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Software\sts-4.22.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-04-02 19:05:09,449 [Worker-17: Launching shop-nest] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy\shop-nest":
+2024-04-02 19:05:09,449 [Worker-17: Launching shop-nest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always 
+2024-04-02 20:41:33,475 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

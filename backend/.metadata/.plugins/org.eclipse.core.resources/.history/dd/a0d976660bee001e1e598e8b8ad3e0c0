@@ -1,9 +1,0 @@
-package com.shopnest.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.shopnest.model.Rating;
-
-public interface RatingRepository extends JpaRepository<Rating, Long> {
-
-}

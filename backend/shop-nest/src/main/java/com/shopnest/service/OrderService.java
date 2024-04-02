@@ -1,14 +1,14 @@
 package com.shopnest.service;
 
-import java.util.List;
+import java.util.*;
 
 import com.shopnest.exception.OrderException;
-import com.shopnest.model.Address;
-import com.shopnest.model.Order;
-import com.shopnest.model.User;
+import com.shopnest.modal.Address;
+import com.shopnest.modal.Order;
+import com.shopnest.modal.User;
 
 public interface OrderService {
-
+	
 	public Order createOrder(User user, Address shippingAdress);
 	
 	public Order findOrderById(Long orderId) throws OrderException;

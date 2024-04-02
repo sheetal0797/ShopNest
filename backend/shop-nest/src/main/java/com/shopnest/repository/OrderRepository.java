@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.shopnest.model.Order;
+import com.shopnest.modal.Order;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {
 

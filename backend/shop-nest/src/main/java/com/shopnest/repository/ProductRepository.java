@@ -1,14 +1,15 @@
 package com.shopnest.repository;
 
-import java.util.List;
+import java.util.*;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.shopnest.model.Product;
+import com.shopnest.modal.Product;
 
-public interface ProductRepository extends JpaRepository<Product,Long>{
-
+public interface ProductRepository extends JpaRepository<Product, Long>{
+	
 	@Query("SELECT p FROM Product p " +
 	        "WHERE (p.category.name = :category OR :category = '') " +
 	        "AND ((:minPrice IS NULL AND :maxPrice IS NULL) OR (p.discountedPrice BETWEEN :minPrice AND :maxPrice)) " +

@@ -575,34 +575,34 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-28 22:58:00.435
 !MESSAGE Started Boot LS process
-!SESSION 2024-03-29 01:03:31.100 -----------------------------------------------
+!SESSION 2024-04-02 18:36:41.505 -----------------------------------------------
 eclipse.buildId=4.22.0.202403071427
 java.version=17.0.10
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE
 
-!ENTRY org.eclipse.emf.ecore 2 0 2024-03-29 01:03:33.619
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 18:36:42.850
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-29 01:03:33.956
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:36:43.062
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-29 01:03:52.239
-!MESSAGE Logback config file: D:\workspace-spring-tool-suite-4-4.22.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:36:44.070
+!MESSAGE Logback config file: C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
 
-!ENTRY org.eclipse.ui 2 0 2024-03-29 01:03:53.003
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:36:44.490
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-29 01:03:53.003
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:36:44.490
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.ui 2 0 2024-03-29 01:03:53.507
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:36:44.779
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-29 01:03:53.507
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:36:44.779
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-29 01:03:58.099
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:36:47.949
 !MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
 START:
 D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
@@ -615,60 +615,60 @@ D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.
 -XX:TieredStopAtLevel=1
 -Xlog:jni+resolve=off
 -Dspring.config.location=file:D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
--XX:ErrorFile=D:/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711654438099
+-XX:ErrorFile=C:/Users/sheet/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712063207948
 org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
 --languageserver.hover-timeout=225
 END
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-29 01:03:58.099
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:36:47.949
 !MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-29 01:03:58.115
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 14192
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:36:47.965
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17172
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-03-29 01:03:59.627
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 18:36:49.150
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\sheet'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-29 01:03:59.709
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:36:49.202
 !MESSAGE Boot project ADDED: shop-nest
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-29 01:03:59.710
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:36:49.203
 !MESSAGE Starting Boot LS...
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-29 01:03:59.714
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:36:49.206
 !MESSAGE Started Boot LS process
-!SESSION 2024-03-29 01:06:35.074 -----------------------------------------------
+!SESSION 2024-04-02 18:48:00.341 -----------------------------------------------
 eclipse.buildId=4.22.0.202403071427
 java.version=17.0.10
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE
 
-!ENTRY org.eclipse.emf.ecore 2 0 2024-03-29 01:06:37.538
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 18:48:02.101
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-29 01:06:38.022
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:48:02.328
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-29 01:07:00.417
-!MESSAGE Logback config file: D:\ShopeNest\backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:48:03.449
+!MESSAGE Logback config file: C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
 
-!ENTRY org.eclipse.ui 2 0 2024-03-29 01:07:01.272
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:48:03.869
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-29 01:07:01.272
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:48:03.869
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.ui 2 0 2024-03-29 01:07:01.899
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:48:04.183
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-29 01:07:01.899
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:48:04.183
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-29 01:07:06.838
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:48:07.398
 !MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
 START:
 D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
@@ -681,403 +681,33 @@ D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.
 -XX:TieredStopAtLevel=1
 -Xlog:jni+resolve=off
 -Dspring.config.location=file:D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
--XX:ErrorFile=D:/ShopeNest/backend/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711654626837
+-XX:ErrorFile=C:/Users/sheet/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712063887397
 org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
 --languageserver.hover-timeout=225
 END
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-29 01:07:06.838
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:48:07.398
 !MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-29 01:07:06.858
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 15488
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:48:07.413
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 1240
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-03-29 01:07:08.243
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 18:48:08.084
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\sheet'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-29 01:07:08.304
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:48:08.120
 !MESSAGE Boot project ADDED: shop-nest
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-29 01:07:08.305
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:48:08.121
 !MESSAGE Starting Boot LS...
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-29 01:07:08.307
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:48:08.123
 !MESSAGE Started Boot LS process
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-03-29 16:17:16.946
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2024-03-29 16:17:28.681
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Core Exception [code 275] A resource exists with a different case: '/shop-nest/src/main/java/com/shopnest/exception'.
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:304)
-	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:93)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:813)
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
-	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2733)
-	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:68)
-	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.lambda$1(NewElementWizard.java:118)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6082)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
-Caused by: java.lang.Exception: A resource exists with a different case: '/shop-nest/src/main/java/com/shopnest/exception'.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
-	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
-	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:298)
-	... 16 more
-Caused by: org.eclipse.core.internal.resources.ResourceException(/shop-nest/src/main/java/com/shopnest/exception)[275]: java.lang.Exception: A resource exists with a different case: '/shop-nest/src/main/java/com/shopnest/exception'.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
-	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
-	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:298)
-	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:93)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:813)
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
-	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2733)
-	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:68)
-	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.lambda$1(NewElementWizard.java:118)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6082)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
-!SUBENTRY 1 org.eclipse.core.resources 4 275 2024-03-29 16:17:28.683
-!MESSAGE A resource exists with a different case: '/shop-nest/src/main/java/com/shopnest/exception'.
-!STACK 0
-java.lang.Exception: A resource exists with a different case: '/shop-nest/src/main/java/com/shopnest/exception'.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:352)
-	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:330)
-	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:40)
-	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:298)
-	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:93)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:813)
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
-	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.createType(NewTypeWizardPage.java:2733)
-	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.finishPage(NewClassCreationWizard.java:68)
-	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.lambda$1(NewElementWizard.java:118)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6082)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-03-29 17:14:31.424
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2024-03-29 23:36:02.860
-!MESSAGE Internal Error
-!STACK 0
-java.lang.reflect.InvocationTargetException
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:445)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2335)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2332)
-	at org.eclipse.ui.internal.progress.ProgressManager$RunnableWithStatus.run(ProgressManager.java:1105)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.progress.ProgressManager.lambda$27(ProgressManager.java:985)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
-	at org.eclipse.ui.internal.progress.ProgressManager.runInUI(ProgressManager.java:985)
-	at org.eclipse.jdt.ui.actions.GenerateNewConstructorUsingFieldsAction.run(GenerateNewConstructorUsingFieldsAction.java:428)
-	at org.eclipse.jdt.ui.actions.GenerateNewConstructorUsingFieldsAction.run(GenerateNewConstructorUsingFieldsAction.java:292)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:278)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
-Caused by: java.lang.IllegalArgumentException: Invalid identifier : >razorpayPaymentId​<
-	at org.eclipse.jdt.core.dom.SimpleName.setIdentifier(SimpleName.java:247)
-	at org.eclipse.jdt.core.dom.AST.newSimpleName(AST.java:2874)
-	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createConstructorStub(StubUtility2Core.java:319)
-	at org.eclipse.jdt.internal.corext.codemanipulation.AddCustomConstructorOperation.run(AddCustomConstructorOperation.java:182)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6082)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
-	... 44 more
-Root exception:
-java.lang.IllegalArgumentException: Invalid identifier : >razorpayPaymentId​<
-	at org.eclipse.jdt.core.dom.SimpleName.setIdentifier(SimpleName.java:247)
-	at org.eclipse.jdt.core.dom.AST.newSimpleName(AST.java:2874)
-	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createConstructorStub(StubUtility2Core.java:319)
-	at org.eclipse.jdt.internal.corext.codemanipulation.AddCustomConstructorOperation.run(AddCustomConstructorOperation.java:182)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6082)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2335)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2332)
-	at org.eclipse.ui.internal.progress.ProgressManager$RunnableWithStatus.run(ProgressManager.java:1105)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.progress.ProgressManager.lambda$27(ProgressManager.java:985)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
-	at org.eclipse.ui.internal.progress.ProgressManager.runInUI(ProgressManager.java:985)
-	at org.eclipse.jdt.ui.actions.GenerateNewConstructorUsingFieldsAction.run(GenerateNewConstructorUsingFieldsAction.java:428)
-	at org.eclipse.jdt.ui.actions.GenerateNewConstructorUsingFieldsAction.run(GenerateNewConstructorUsingFieldsAction.java:292)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:278)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-03-30 01:47:18.057
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.lsp4e 2 0 2024-03-30 11:46:23.197
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2024-03-30 12:17:21.049
-!MESSAGE Internal Error
-!STACK 0
-java.lang.reflect.InvocationTargetException
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:445)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2335)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2332)
-	at org.eclipse.ui.internal.progress.ProgressManager$RunnableWithStatus.run(ProgressManager.java:1105)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.progress.ProgressManager.lambda$27(ProgressManager.java:985)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
-	at org.eclipse.ui.internal.progress.ProgressManager.runInUI(ProgressManager.java:985)
-	at org.eclipse.jdt.ui.actions.GenerateNewConstructorUsingFieldsAction.run(GenerateNewConstructorUsingFieldsAction.java:428)
-	at org.eclipse.jdt.ui.actions.GenerateNewConstructorUsingFieldsAction.run(GenerateNewConstructorUsingFieldsAction.java:292)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:278)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
-Caused by: java.lang.IllegalArgumentException: Invalid identifier : >razorpayPaymentId​<
-	at org.eclipse.jdt.core.dom.SimpleName.setIdentifier(SimpleName.java:247)
-	at org.eclipse.jdt.core.dom.AST.newSimpleName(AST.java:2874)
-	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createConstructorStub(StubUtility2Core.java:319)
-	at org.eclipse.jdt.internal.corext.codemanipulation.AddCustomConstructorOperation.run(AddCustomConstructorOperation.java:182)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6082)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
-	... 44 more
-Root exception:
-java.lang.IllegalArgumentException: Invalid identifier : >razorpayPaymentId​<
-	at org.eclipse.jdt.core.dom.SimpleName.setIdentifier(SimpleName.java:247)
-	at org.eclipse.jdt.core.dom.AST.newSimpleName(AST.java:2874)
-	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createConstructorStub(StubUtility2Core.java:319)
-	at org.eclipse.jdt.internal.corext.codemanipulation.AddCustomConstructorOperation.run(AddCustomConstructorOperation.java:182)
-	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2448)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2473)
-	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6082)
-	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
-	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2335)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2332)
-	at org.eclipse.ui.internal.progress.ProgressManager$RunnableWithStatus.run(ProgressManager.java:1105)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.ui.internal.progress.ProgressManager.lambda$27(ProgressManager.java:985)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4803)
-	at org.eclipse.ui.internal.progress.ProgressManager.runInUI(ProgressManager.java:985)
-	at org.eclipse.jdt.ui.actions.GenerateNewConstructorUsingFieldsAction.run(GenerateNewConstructorUsingFieldsAction.java:428)
-	at org.eclipse.jdt.ui.actions.GenerateNewConstructorUsingFieldsAction.run(GenerateNewConstructorUsingFieldsAction.java:292)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:278)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
-!SESSION 2024-03-31 15:24:19.462 -----------------------------------------------
+!SESSION 2024-04-02 18:48:23.146 -----------------------------------------------
 eclipse.buildId=4.22.0.202403071427
 java.version=17.0.10
 java.vendor=Eclipse Adoptium
@@ -1085,26 +715,26 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.emf.ecore 2 0 2024-03-31 15:24:22.041
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 18:48:24.387
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-31 15:24:22.424
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:48:24.594
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-03-31 15:24:24.148
-!MESSAGE Logback config file: D:\ShopeNest\backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:48:25.598
+!MESSAGE Logback config file: C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
 
-!ENTRY org.eclipse.ui 2 0 2024-03-31 15:24:24.669
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:48:25.937
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-31 15:24:24.669
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:48:25.937
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.ui 2 0 2024-03-31 15:24:25.033
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:48:26.253
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-03-31 15:24:25.033
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:48:26.253
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-31 15:24:28.827
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:48:29.407
 !MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
 START:
 D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
@@ -1117,29 +747,359 @@ D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.
 -XX:TieredStopAtLevel=1
 -Xlog:jni+resolve=off
 -Dspring.config.location=file:D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
--XX:ErrorFile=D:/ShopeNest/backend/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1711878868826
+-XX:ErrorFile=C:/Users/sheet/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712063909407
 org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
 --languageserver.hover-timeout=225
 END
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-31 15:24:28.828
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:48:29.408
 !MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-31 15:24:28.848
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 19576
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:48:29.418
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10336
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-03-31 15:24:30.213
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 18:48:30.124
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\sheet'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-31 15:24:30.269
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:48:30.181
 !MESSAGE Boot project ADDED: shop-nest
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-31 15:24:30.270
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:48:30.182
 !MESSAGE Starting Boot LS...
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-31 15:24:30.272
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:48:30.185
+!MESSAGE Started Boot LS process
+!SESSION 2024-04-02 18:50:04.697 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 18:50:05.948
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:50:06.157
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:50:07.201
+!MESSAGE Logback config file: C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:50:07.637
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:50:07.637
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:50:07.936
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:50:07.936
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:50:11.087
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/sheet/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712064011086
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:50:11.088
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:50:11.104
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8664
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 18:50:12.264
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sheet'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:50:12.310
+!MESSAGE Boot project ADDED: shop-nest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:50:12.312
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:50:12.315
+!MESSAGE Started Boot LS process
+!SESSION 2024-04-02 18:52:31.301 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 18:52:32.896
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:52:33.114
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:52:34.127
+!MESSAGE Logback config file: C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:52:34.519
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:52:34.519
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:52:34.815
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:52:34.815
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:52:37.901
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/sheet/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712064157900
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:52:37.901
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:52:37.920
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12512
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 18:52:39.047
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sheet'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:52:39.096
+!MESSAGE Boot project ADDED: shop-nest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:52:39.097
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:52:39.100
+!MESSAGE Started Boot LS process
+!SESSION 2024-04-02 18:52:54.698 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 18:52:56.047
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:52:56.256
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 18:52:57.311
+!MESSAGE Logback config file: C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:52:57.680
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:52:57.680
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 18:52:57.998
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 18:52:57.998
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:53:01.186
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/sheet/Documents/workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712064181185
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:53:01.187
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 18:53:01.205
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 1320
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 18:53:02.339
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sheet'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:53:02.393
+!MESSAGE Boot project ADDED: shop-nest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:53:02.394
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 18:53:02.396
+!MESSAGE Started Boot LS process
+!SESSION 2024-04-02 20:41:19.417 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data D:\Projects\Ecommerce\ShopNest_old\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 20:41:20.832
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 20:41:21.057
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 20:41:22.088
+!MESSAGE Logback config file: D:\Projects\Ecommerce\ShopNest_old\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 20:41:22.476
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 20:41:22.476
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 20:41:22.793
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 20:41:22.793
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 20:41:29.054
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Projects/Ecommerce/ShopNest_old/workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712070689047
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 20:41:29.056
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 20:41:29.086
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4728
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 20:41:33.553
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sheet'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 20:41:34.150
+!MESSAGE Boot project ADDED: shop-nest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 20:41:34.150
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 20:41:34.158
+!MESSAGE Started Boot LS process
+!SESSION 2024-04-02 20:47:30.640 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data D:\Projects\Ecommerce\ShopNest_old\backend
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 20:47:32.193
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 20:47:32.511
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 20:47:33.920
+!MESSAGE Logback config file: D:\Projects\Ecommerce\ShopNest_old\backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 20:47:34.475
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 20:47:34.475
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 20:47:34.871
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 20:47:34.871
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 20:47:40.407
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\Software\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\Software\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/Projects/Ecommerce/ShopNest_old/backend/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712071060406
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 20:47:40.408
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 20:47:40.421
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 21908
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 20:47:41.595
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sheet'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 20:47:41.789
+!MESSAGE Boot project ADDED: shop-nest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 20:47:41.790
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 20:47:41.792
 !MESSAGE Started Boot LS process

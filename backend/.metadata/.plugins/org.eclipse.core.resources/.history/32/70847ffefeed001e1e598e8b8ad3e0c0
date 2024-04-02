@@ -1,5 +1,0 @@
-package com.shopnest.request;
-
-public class AddItemRequest {
-
-}

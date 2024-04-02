@@ -1,29 +1,27 @@
 package com.shopnest.service;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 import org.springframework.stereotype.Service;
 
 import com.shopnest.exception.OrderException;
-import com.shopnest.model.Address;
-import com.shopnest.model.Cart;
-import com.shopnest.model.CartItem;
-import com.shopnest.model.Order;
-import com.shopnest.model.OrderItem;
-import com.shopnest.model.User;
+import com.shopnest.modal.Address;
+import com.shopnest.modal.Cart;
+import com.shopnest.modal.CartItem;
+import com.shopnest.modal.Order;
+import com.shopnest.modal.OrderItem;
+import com.shopnest.modal.User;
 import com.shopnest.repository.AddressRepository;
+import com.shopnest.repository.CartRepository;
 import com.shopnest.repository.OrderItemRepository;
 import com.shopnest.repository.OrderRepository;
 import com.shopnest.repository.UserRepository;
-import com.shopnest.user.domain.OrderStatus;
-import com.shopnest.user.domain.PaymentStatus;
+import com.shopnest.user.OrderStatus;
+import com.shopnest.user.PaymentStatus;
 
 @Service
 public class OrderServiceImplementation implements OrderService{
-
 	
 	private OrderRepository orderRepository;
 	private CartService cartService;
@@ -33,17 +31,17 @@ public class OrderServiceImplementation implements OrderService{
 	private OrderItemRepository orderItemRepository;
 	
 	
-	public OrderServiceImplementation(OrderRepository orderRepository, CartService cartService,
-			AddressRepository addressRepository, UserRepository userRepository, OrderItemService orderItemService,
-			OrderItemRepository orderItemRepository) {
-		this.orderRepository = orderRepository;
-		this.cartService = cartService;
-		this.addressRepository = addressRepository;
-		this.userRepository = userRepository;
-		this.orderItemService = orderItemService;
-		this.orderItemRepository = orderItemRepository;
+	public OrderServiceImplementation(OrderRepository orderRepository,CartService cartService,
+			AddressRepository addressRepository,UserRepository userRepository,
+			OrderItemService orderItemService,OrderItemRepository orderItemRepository) {
+		this.orderRepository=orderRepository;
+		this.cartService=cartService;
+		this.addressRepository=addressRepository;
+		this.userRepository=userRepository;
+		this.orderItemService=orderItemService;
+		this.orderItemRepository=orderItemRepository;
 	}
-
+	
 	@Override
 	public Order createOrder(User user, Address shippAddress) {
 		
@@ -77,7 +75,7 @@ public class OrderServiceImplementation implements OrderService{
 		createdOrder.setOrderItems(orderItems);
 		createdOrder.setTotalPrice(cart.getTotalPrice());
 		createdOrder.setTotalDiscountedPrice(cart.getTotalDiscountedPrice());
-		createdOrder.setDiscounte(cart.getDiscounte());
+		createdOrder.setDiscounte(cart.getDiscount());
 		createdOrder.setTotalItem(cart.getTotalItem());
 		
 		createdOrder.setShippingAddress(address);
@@ -164,7 +162,7 @@ public class OrderServiceImplementation implements OrderService{
 		orderRepository.deleteById(orderId);
 		
 	}
-
-
 	
+
+
 }

@@ -1,13 +1,13 @@
 package com.shopnest.controller;
 
-import java.util.List;
+import java.util.*;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.shopnest.exception.OrderException;
 import com.shopnest.exception.UserException;
-import com.shopnest.model.Address;
-import com.shopnest.model.Order;
-import com.shopnest.model.User;
+import com.shopnest.modal.Address;
+import com.shopnest.modal.Order;
+import com.shopnest.modal.User;
 import com.shopnest.service.OrderService;
 import com.shopnest.service.UserService;
 
@@ -25,7 +25,9 @@ import com.shopnest.service.UserService;
 @RequestMapping("/api/orders")
 public class OrderController {
 	
+	@Autowired
 	private OrderService orderService;
+	@Autowired
 	private UserService userService;
 	
 	public OrderController(OrderService orderService,UserService userService) {
@@ -34,11 +36,11 @@ public class OrderController {
 	}
 	
 	@PostMapping("/")
-	public ResponseEntity<Order> createOrderHandler(@RequestBody Address spippingAddress,
+	public ResponseEntity<Order> createOrderHandler(@RequestBody Address shippingAddress,
 			@RequestHeader("Authorization")String jwt) throws UserException{
 		
 		User user=userService.findUserProfileByJwt(jwt);
-		Order order =orderService.createOrder(user, spippingAddress);
+		Order order =orderService.createOrder(user, shippingAddress);
 		
 		return new ResponseEntity<Order>(order,HttpStatus.OK);
 		

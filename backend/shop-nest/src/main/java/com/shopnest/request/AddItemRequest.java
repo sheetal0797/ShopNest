@@ -1,7 +1,6 @@
 package com.shopnest.request;
 
 public class AddItemRequest {
-
 	private Long productId;
 	private String size;
 	private int quantity;
@@ -9,6 +8,14 @@ public class AddItemRequest {
 	
 	public AddItemRequest() {
 		// TODO Auto-generated constructor stub
+	}
+
+	public AddItemRequest(Long productId, String size, int quantity, Integer price) {
+		super();
+		this.productId = productId;
+		this.size = size;
+		this.quantity = quantity;
+		this.price = price;
 	}
 
 	public Long getProductId() {
@@ -42,5 +49,6 @@ public class AddItemRequest {
 	public void setPrice(Integer price) {
 		this.price = price;
 	}
+	
 	
 }

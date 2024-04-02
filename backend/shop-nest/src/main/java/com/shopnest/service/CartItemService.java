@@ -2,12 +2,12 @@ package com.shopnest.service;
 
 import com.shopnest.exception.CartItemException;
 import com.shopnest.exception.UserException;
-import com.shopnest.model.Cart;
-import com.shopnest.model.CartItem;
-import com.shopnest.model.Product;
+import com.shopnest.modal.Cart;
+import com.shopnest.modal.CartItem;
+import com.shopnest.modal.Product;
 
 public interface CartItemService {
-
+	
 	public CartItem createCartItem(CartItem cartItem);
 	
 	public CartItem updateCartItem(Long userId, Long id,CartItem cartItem) throws CartItemException, UserException;

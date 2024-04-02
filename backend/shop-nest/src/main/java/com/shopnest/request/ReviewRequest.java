@@ -1,12 +1,8 @@
 package com.shopnest.request;
 
 public class ReviewRequest {
-
 	private Long productId;
 	private String review;
-	public ReviewRequest() {
-		// TODO Auto-generated constructor stub
-	}
 	public Long getProductId() {
 		return productId;
 	}
@@ -19,5 +15,6 @@ public class ReviewRequest {
 	public void setReview(String review) {
 		this.review = review;
 	}
+	
 	
 }

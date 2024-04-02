@@ -6,17 +6,18 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.shopnest.exception.ProductException;
-import com.shopnest.model.Product;
-import com.shopnest.model.Rating;
-import com.shopnest.model.User;
+import com.shopnest.modal.Product;
+import com.shopnest.modal.Rating;
+import com.shopnest.modal.User;
 import com.shopnest.repository.RatingRepository;
 import com.shopnest.request.RatingRequest;
 
 @Service
-public class RatingServiceImplementation implements RatingService {
-
+public class RatingServiceImplementation implements RatingService{
+	
 	private RatingRepository ratingRepository;
 	private ProductService productService;
+	
 	
 
 	public RatingServiceImplementation(RatingRepository ratingRepository, ProductService productService) {
@@ -26,19 +27,21 @@ public class RatingServiceImplementation implements RatingService {
 
 	@Override
 	public Rating createRating(RatingRequest req, User user) throws ProductException {
-		Product product=productService.findProductById(req.getProductId());
+		Product product = productService.findProductById(req.getProductId()); 
 		
-		Rating rating=new Rating();
+		Rating rating = new Rating();
 		rating.setProduct(product);
 		rating.setUser(user);
 		rating.setRating(req.getRating());
 		rating.setCreatedAt(LocalDateTime.now());
-		
 		return ratingRepository.save(rating);
+		
 	}
 
 	@Override
 	public List<Rating> getProductsRating(Long productId) {
+		
+		
 		return ratingRepository.getAllProductsRating(productId);
 	}
 

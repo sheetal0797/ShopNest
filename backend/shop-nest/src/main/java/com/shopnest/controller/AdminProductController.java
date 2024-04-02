@@ -1,29 +1,23 @@
 package com.shopnest.controller;
 
-import java.util.List;
+import java.util.*;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.shopnest.exception.ProductException;
-import com.shopnest.model.Product;
+import com.shopnest.modal.Product;
 import com.shopnest.request.CreateProductRequest;
 import com.shopnest.response.ApiResponse;
 import com.shopnest.service.ProductService;
-
 
 @RestController
 @RequestMapping("/api/admin/products")
 public class AdminProductController {
 	
+	@Autowired
 	private ProductService productService;
 	
 	public AdminProductController(ProductService productService) {
@@ -42,9 +36,9 @@ public class AdminProductController {
 	@DeleteMapping("/{productId}/delete")
 	public ResponseEntity<ApiResponse> deleteProductHandler(@PathVariable Long productId) throws ProductException{
 		
-		System.out.println("dlete product controller .... ");
+		System.out.println("delete product controller .... ");
 		String msg=productService.deleteProduct(productId);
-		System.out.println("dlete product controller .... msg "+msg);
+		System.out.println("delete product controller .... msg "+msg);
 		ApiResponse res=new ApiResponse(msg,true);
 		
 		return new ResponseEntity<ApiResponse>(res,HttpStatus.ACCEPTED);
@@ -54,11 +48,11 @@ public class AdminProductController {
 //	@GetMapping("/all")
 //	public ResponseEntity<List<Product>> findAllProduct(){
 //		
-//		List<Product> products = productService.getAllProducts();
+//		List<Product> products = productService.findAllProducts();
 //		
 //		return new ResponseEntity<List<Product>>(products,HttpStatus.OK);
 //	}
-//	
+	
 //	@GetMapping("/recent")
 //	public ResponseEntity<List<Product>> recentlyAddedProduct(){
 //		
@@ -66,7 +60,7 @@ public class AdminProductController {
 //		
 //		return new ResponseEntity<List<Product>>(products,HttpStatus.OK);
 //	}
-//	
+	
 	
 	@PutMapping("/{productId}/update")
 	public ResponseEntity<Product> updateProductHandler(@RequestBody Product req,@PathVariable Long productId) throws ProductException{

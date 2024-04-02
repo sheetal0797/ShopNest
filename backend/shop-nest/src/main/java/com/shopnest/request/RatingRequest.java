@@ -1,15 +1,8 @@
 package com.shopnest.request;
 
 public class RatingRequest {
-
 	private Long productId;
-	
 	private double rating;
-	
-	public RatingRequest() {
-		// TODO Auto-generated constructor stub
-	}
-	
 	public Long getProductId() {
 		return productId;
 	}
@@ -23,6 +16,5 @@ public class RatingRequest {
 		this.rating = rating;
 	}
 	
-
 	
 }

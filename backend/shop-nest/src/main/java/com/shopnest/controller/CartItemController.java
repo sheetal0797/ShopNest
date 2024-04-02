@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.shopnest.exception.CartItemException;
 import com.shopnest.exception.UserException;
-import com.shopnest.model.CartItem;
-import com.shopnest.model.User;
+import com.shopnest.modal.CartItem;
+import com.shopnest.modal.User;
 import com.shopnest.response.ApiResponse;
 import com.shopnest.service.CartItemService;
 import com.shopnest.service.CartService;
@@ -27,28 +27,27 @@ public class CartItemController {
 	private UserService userService;
 	private CartService cartService;
 	
-	public CartItemController(CartItemService cartItemService,UserService userService,CartService cartService) {
+	
+	public CartItemController(CartItemService cartItemService,UserService userService, CartService cartService) {
 		this.cartItemService=cartItemService;
 		this.userService=userService;
-		this.cartService= cartService;
+		this.cartService=cartService;
 	}
 	
 	@DeleteMapping("/{cartItemId}")
-	public ResponseEntity<ApiResponse>deleteCartItemHandler(@PathVariable Long cartItemId, @RequestHeader("Authorization")String jwt) 
-			throws CartItemException, UserException{
+	public ResponseEntity<ApiResponse>deleteCartItemHandler(@PathVariable Long cartItemId, @RequestHeader("Authorization")String jwt) throws CartItemException, UserException{
 		
 		User user=userService.findUserProfileByJwt(jwt);
 		cartItemService.removeCartItem(user.getId(), cartItemId);
 		cartService.findUserCart(user.getId());
-		
-		ApiResponse res=new ApiResponse("Item Remove From Cart",true);
+	
+		ApiResponse res=new ApiResponse("Item Removed From Cart",true);
 		
 		return new ResponseEntity<ApiResponse>(res,HttpStatus.ACCEPTED);
 	}
 	
 	@PutMapping("/{cartItemId}")
-	public ResponseEntity<CartItem>updateCartItemHandler(@PathVariable Long cartItemId, @RequestBody CartItem cartItem, 
-			@RequestHeader("Authorization")String jwt) throws CartItemException, UserException{
+	public ResponseEntity<CartItem>updateCartItemHandler(@PathVariable Long cartItemId, @RequestBody CartItem cartItem, @RequestHeader("Authorization")String jwt) throws CartItemException, UserException{
 		
 		User user=userService.findUserProfileByJwt(jwt);
 		
