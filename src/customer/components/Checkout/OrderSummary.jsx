@@ -6,17 +6,22 @@ import CartItem from "../Cart/CartItem";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
 import { getOrderById } from "../../../State/Order/Action";
+import { createPayment } from "../../../State/Payment/Action";
 
 const OrderSummary = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const { order } = useSelector(store => store);
   const searchParams = new URLSearchParams(location.search);
-  const orderId = searchParams.get('order_Id');
+  const orderId = searchParams.get('order_id');
 
   useEffect(() => {
     dispatch(getOrderById(orderId))
   }, [orderId])
+
+  const handleCheckout = () => {
+    dispatch(createPayment(orderId))
+  }
 
   return (
     <div>
@@ -58,6 +63,7 @@ const OrderSummary = () => {
               type="submit"
               className="w-full mt-5"
               sx={{ px: "2.5rem", py: ".7rem", width: "100%" }}
+              onClick={handleCheckout}
             >
               Checkout
             </Button>

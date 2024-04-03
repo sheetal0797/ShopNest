@@ -1504,3 +1504,4 @@
 2024-04-02 19:05:09,449 [Worker-17: Launching shop-nest] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\sheet\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE - Copy\shop-nest":
 2024-04-02 19:05:09,449 [Worker-17: Launching shop-nest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always 
 2024-04-02 20:41:33,475 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-02 20:47:41,545 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
