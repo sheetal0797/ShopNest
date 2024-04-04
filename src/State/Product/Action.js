@@ -1,4 +1,4 @@
-import { api } from "../../config/apiConfig";
+import { API_BASE_URL, api } from "../../config/apiConfig";
 import {
   FIND_PRODUCTS_FAILURE,
   FIND_PRODUCTS_REQUEST,
@@ -6,6 +6,15 @@ import {
   FIND_PRODUCT_BY_ID_FAILURE,
   FIND_PRODUCT_BY_ID_REQUEST,
   FIND_PRODUCT_BY_ID_SUCCESS,
+  CREATE_PRODUCT_REQUEST,
+  CREATE_PRODUCT_SUCCESS,
+  CREATE_PRODUCT_FAILURE,
+  UPDATE_PRODUCT_REQUEST,
+  UPDATE_PRODUCT_SUCCESS,
+  UPDATE_PRODUCT_FAILURE,
+  DELETE_PRODUCT_REQUEST,
+  DELETE_PRODUCT_SUCCESS,
+  DELETE_PRODUCT_FAILURE,
 } from "./ActionType";
 
 export const findProducts = (reqData) => async (dispatch) => {
@@ -56,6 +65,80 @@ export const findProductById = (reqData) => async (dispatch) => {
     dispatch({
       type: FIND_PRODUCT_BY_ID_FAILURE,
       payload: error.message,
+    });
+  }
+};
+
+export const createProduct = (product) => async (dispatch) => {
+  try {
+    dispatch({ type: CREATE_PRODUCT_REQUEST });
+
+    const { data } = await api.post(`/api/admin/products/`,
+      product);
+
+    console.log("created product ", data);
+    dispatch({
+      type: CREATE_PRODUCT_SUCCESS,
+      payload: data,
+    });
+
+
+  } catch (error) {
+    dispatch({
+      type: CREATE_PRODUCT_FAILURE,
+      payload:
+        error.response && error.response.data.message
+          ? error.response.data.message
+          : error.message,
+    });
+  }
+};
+
+export const updateProduct = (product) => async (dispatch) => {
+  try {
+    dispatch({ type: UPDATE_PRODUCT_REQUEST });
+
+    const { data } = await api.put(
+      `${API_BASE_URL}/api/admin/products/${product.productId}`,
+      product
+    );
+
+    dispatch({
+      type: UPDATE_PRODUCT_SUCCESS,
+      payload: data,
+    });
+  } catch (error) {
+    dispatch({
+      type: UPDATE_PRODUCT_FAILURE,
+      payload:
+        error.response && error.response.data.message
+          ? error.response.data.message
+          : error.message,
+    });
+  }
+};
+
+export const deleteProduct = (productId) => async (dispatch) => {
+  console.log("delete product action", productId)
+  try {
+    dispatch({ type: DELETE_PRODUCT_REQUEST });
+
+    let { data } = await api.delete(`/api/admin/products/${productId}/delete`);
+
+    dispatch({
+      type: DELETE_PRODUCT_SUCCESS,
+      payload: data,
+    });
+
+    console.log("product delte ", data)
+  } catch (error) {
+    console.log("catch error ", error)
+    dispatch({
+      type: DELETE_PRODUCT_FAILURE,
+      payload:
+        error.response && error.response.data.message
+          ? error.response.data.message
+          : error.message,
     });
   }
 };

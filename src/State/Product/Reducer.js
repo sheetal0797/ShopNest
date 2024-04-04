@@ -1,4 +1,7 @@
 import {
+  DELETE_PRODUCT_FAILURE,
+  DELETE_PRODUCT_REQUEST,
+  DELETE_PRODUCT_SUCCESS,
   FIND_PRODUCTS_FAILURE,
   FIND_PRODUCTS_REQUEST,
   FIND_PRODUCTS_SUCCESS,
@@ -12,6 +15,7 @@ const initialState = {
   product: null,
   loading: false,
   error: null,
+  deleteProduct: null,
 };
 
 export const customerProductReducer = (state = initialState, action) => {
@@ -33,7 +37,25 @@ export const customerProductReducer = (state = initialState, action) => {
     case FIND_PRODUCTS_FAILURE:
     case FIND_PRODUCT_BY_ID_FAILURE:
       return { ...state, loading: false, error: action.payload };
-
+    case DELETE_PRODUCT_REQUEST:
+      return {
+        ...state,
+        loading: true,
+        error: null,
+      };
+    case DELETE_PRODUCT_SUCCESS:
+      console.log("dlete ", state.products)
+      return {
+        ...state,
+        loading: false,
+        deleteProduct: action.payload,
+      };
+    case DELETE_PRODUCT_FAILURE:
+      return {
+        ...state,
+        loading: false,
+        error: action.payload,
+      };
     default:
       return state;
   }
