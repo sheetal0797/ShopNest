@@ -3,16 +3,34 @@ import React from 'react'
 import Achievement from './Achievement'
 import MonthlyOverview from './MonthlyOverview'
 import ProductsTable from './ProductsTable'
+import OrdersTableView from '../View/OrdersTableView'
+import ProductsTableView from '../View/ProductsTableView'
 
 const AdminDashboard = () => {
     return (
-        <div>
-            <Grid container spacing={2}>
+        <div className='p-10'>
+            <Grid container spacing={3}>
                 <Grid item xs={12} md={4}>
-                    <Achievement />
+                    <div className='shadow-lg shadow-gray-600'>
+                        <Achievement />
+                    </div>
                 </Grid>
                 <Grid item xs={12} md={8}>
-                    <MonthlyOverview />
+                    <div className='shadow-lg shadow-gray-600'>
+                        <MonthlyOverview />
+                    </div>
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <div className='shadow-lg shadow-gray-600'>
+                        <OrdersTableView />
+                    </div>
+
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <div className='shadow-lg shadow-gray-600'>
+                        <ProductsTableView />
+                    </div>
+
                 </Grid>
 
             </Grid>

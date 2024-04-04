@@ -30,9 +30,7 @@ const menu = [
     { name: "Products", path: "/admin/products", icon: <DashboardIcon /> },
     { name: "Customers", path: "/admin/customers", icon: <DashboardIcon /> },
     { name: "Orders", path: "/admin/orders", icon: <DashboardIcon /> },
-    { name: "Total Earnings", path: "/admin", icon: <DashboardIcon /> },
-    { name: "Weekly Overview", path: "/admin", icon: <DashboardIcon /> },
-    { name: "Monthly Overview", path: "/admin", icon: <DashboardIcon /> },
+
     {
         name: "Add Product",
         path: "/admin/product/create",
@@ -88,7 +86,7 @@ const Admin = () => {
         <div className="relative flex h-[100vh]  ">
             <CssBaseline />
             {/* <AdminNavbar handleSideBarViewInMobile={handleSideBarViewInMobile} /> */}
-            <div className="w-[15%] border border-r-gray-300 h-full fixed top-0">
+            <div className="'shadow-lg shadow-gray-600' w-[15%] h-full fixed top-0">
                 {drawer}
             </div>
 
@@ -104,5 +102,4 @@ const Admin = () => {
         </div>
     );
 };
-
 export default Admin;
